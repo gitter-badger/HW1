@@ -1,0 +1,683 @@
+Script started on Thu 16 Apr 2015 11:41:28 AM PDT
+paolo2@quark:~/RANDOM/project1/CS202_HW1$ g++ *.cpp -g -Wall
+paolo2@quark:~/RANDOM/project1/CS202_HW1$ ./a.out
+Press Enter to start the game.
+***************GO FISH - GAME RULES******************
+*Every player will draw 7 cards at the start of game.
+*The user will ask the computer  if they have a particular number.
+*If the player  does not have that number on their hand, the player  will say 'Go fish!'  and player who asked will draw a card.
+*If the player  does have that number, that player must give all the cards with that number to the player who asked  and it will still be the their  turn until opposing player says 'Go fish'
+*The goal is to get all 4 of a kind (called 'book') and are removed from the hand.
+Player who runs out of cards wins the game!
+
+
+H = Hearts
+D = Diamond
+S = Spades
+C = Clubs
+1 = Ace
+11 = Jack
+12 = Queen
+13 = King
+
+Press Enter to start playing the game
+
+Would you like God mode on (See Computer's hand!) Y/N?: N
+
+
+
+Player's hand: 
+1D 1C 4S 6S 7S 9H 11S 
+Player's turn: 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 4S 6S 7S 9D 9H 11S 
+
+
+Computer's turn: 
+>*Computer: Do you have a #10?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 4S 6S 7S 9D 9H 11S 
+Player's turn: 
+Ask a number:3
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 9D 9H 11S 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 9D 9H 10S 11S 
+
+
+Computer's turn: 
+>*Computer: Do you have a #2?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 9D 9H 10S 11S 
+Player's turn: 
+Ask a number:8
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 8C 9D 9H 10S 11S 
+Ask a number:10
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 8C 9D 9H 10C 10S 11S 
+Ask a number:12
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 8C 9D 9H 10C 10S 11S 12C 12H 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 8D 8C 9D 9H 10C 10S 11S 12C 12H 
+
+
+Computer's turn: 
+>*Computer: Do you have a #8?
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 9D 9H 10C 10S 11S 12C 12H 
+>*Computer: Do you have a #1?
+
+
+Player's hand: 
+3C 4S 6S 7S 9D 9H 10C 10S 11S 12C 12H 
+>*Computer: Do you have a #1?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+3C 4S 6S 7S 9D 9H 10C 10S 11S 12C 12H 
+Player's turn: 
+Ask a number:4 1
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7S 9D 9H 10C 10S 11S 12C 12H 
+Ask a number:7
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7H 7S 9D 9H 10C 10S 11S 12C 12H 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7H 7S 9D 9H 10C 10S 11S 12C 12H 13H 
+
+
+Computer's turn: 
+>*Computer: Do you have a #8?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 3C 4S 6S 7H 7S 9D 9H 10C 10S 11S 12C 12H 13H 
+Player's turn: 
+Ask a number:2
+
+
+
+Player's hand: 
+1D 1C 2D 3C 4S 6S 7H 7S 9D 9H 10C 10S 11S 12C 12H 13H 
+Ask a number:12
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 2D 3C 4S 6S 7C 7H 7S 9D 9H 10C 10S 11S 12C 12H 13H 
+
+
+Computer's turn: 
+>*Computer: Do you have a #9?
+
+
+Player's hand: 
+1D 1C 2D 3C 4S 6S 7C 7H 7S 10C 10S 11S 12C 12H 13H 
+>*Computer: Do you have a #6?
+
+
+Player's hand: 
+1D 1C 2D 3C 4S 7C 7H 7S 10C 10S 11S 12C 12H 13H 
+>*Computer: Do you have a #4?
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 11S 12C 12H 13H 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+**********************************BOOOK! #9*****************************
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 11S 12C 12H 13H 
+Player's turn: 
+Ask a number:13
+
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 11S 12C 12H 13S 13H 13C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #11?
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 12C 12H 13S 13H 13C 
+>*Computer: Do you have a #12?
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 13S 13H 13C 
+>*Computer: Do you have a #8?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10C 10S 13S 13H 13C 
+Player's turn: 
+Ask a number:10
+
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10D 10C 10S 13S 13H 13C 
+Ask a number:7
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 2D 3C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #2?
+
+
+Player's hand: 
+1D 1C 3C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+>*Computer: Do you have a #3?
+
+
+Player's hand: 
+1D 1C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+>*Computer: Do you have a #6?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+Player's turn: 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 5C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #8?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 5C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+Player's turn: 
+Ask a number:10
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 5C 6D 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #1?
+
+
+Player's hand: 
+5C 6D 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+>*Computer: Do you have a #3?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+5C 6D 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+Player's turn: 
+Ask a number:13
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1H 5C 6D 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #6?
+
+
+Player's hand: 
+1H 5C 7C 7H 7S 10D 10C 10S 11H 13S 13H 13C 
+>*Computer: Do you have a #7?
+
+
+Player's hand: 
+1H 5C 10D 10C 10S 11H 13S 13H 13C 
+>*Computer: Do you have a #6?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1H 5C 10D 10C 10S 11H 13S 13H 13C 
+Player's turn: 
+Ask a number:1
+
+
+
+Player's hand: 
+1D 1C 1H 5C 10D 10C 10S 11H 13S 13H 13C 
+Ask a number:12
+
+
+
+**********************************BOOOK! #13*****************************
+Player's hand: 
+1D 1C 1H 5C 10D 10C 10S 11H 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 1H 5C 10D 10C 10S 11H 12H 12C 
+Player's turn: 
+Ask a number:1
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 1H 4D 5C 10D 10C 10S 11H 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #10?
+
+
+Player's hand: 
+1D 1C 1H 4D 5C 11H 12H 12C 
+>*Computer: Do you have a #10?
+
+
+***************Go ><(((*)>  *************
+
+
+
+**********************************BOOOK! #7*****************************
+Player's hand: 
+1D 1C 1H 4D 5C 11H 12H 12C 
+Player's turn: 
+Ask a number:4
+
+
+
+Player's hand: 
+1D 1C 1H 4S 4D 5C 11H 12H 12C 
+Ask a number:6
+
+
+
+Player's hand: 
+1D 1C 1H 4S 4D 5C 6S 6C 6D 11H 12H 12C 
+Ask a number:10
+
+
+
+Player's hand: 
+1D 1C 1H 4S 4D 5C 6S 6C 6D 10D 10C 10S 11H 12H 12C 
+Ask a number:12
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 1H 2S 4S 4D 5C 6S 6C 6D 10D 10C 10S 11H 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #5?
+
+
+Player's hand: 
+1D 1C 1H 2S 4S 4D 6S 6C 6D 10D 10C 10S 11H 12H 12C 
+>*Computer: Do you have a #11?
+
+
+Player's hand: 
+1D 1C 1H 2S 4S 4D 6S 6C 6D 10D 10C 10S 12H 12C 
+>*Computer: Do you have a #4?
+
+
+Player's hand: 
+1D 1C 1H 2S 6S 6C 6D 10D 10C 10S 12H 12C 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 1H 2S 6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:13
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+1D 1C 1H 2S 4C 6S 6C 6D 10D 10C 10S 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #13?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+1D 1C 1H 2S 4C 6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:4
+
+
+
+Player's hand: 
+1D 1C 1H 2S 4S 4D 4C 6S 6C 6D 10D 10C 10S 12H 12C 
+Ask a number:6
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+**********************************BOOOK! #4*****************************
+Player's hand: 
+1D 1C 1H 2S 6S 6C 6D 10D 10C 10S 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #1?
+
+
+Player's hand: 
+2S 6S 6C 6D 10D 10C 10S 12H 12C 
+>*Computer: Do you have a #13?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+2S 6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:10
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+2S 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+2S 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:10
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+Player's hand: 
+2S 3S 6S 6C 6D 8H 10D 10C 10S 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #8?
+**********************************BOOOK! #8*****************************
+
+
+Player's hand: 
+2S 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+>*Computer: Do you have a #13?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+2S 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:1
+
+
+
+Player's hand: 
+1D 1C 1H 2S 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+Ask a number:2
+**********************************BOOOK! #2*****************************
+
+
+
+Player's hand: 
+1D 1C 1H 3S 6S 6C 6D 10D 10C 10S 12H 12C 
+Ask a number:3
+**********************************BOOOK! #3*****************************
+
+
+
+Player's hand: 
+1D 1C 1H 6S 6C 6D 10D 10C 10S 12H 12C 
+Ask a number:4
+
+
+***************Go ><(((*)>  *************
+
+
+
+
+**********************************BOOOK! #1*****************************
+Player's hand: 
+6S 6C 6D 10D 10C 10S 12H 12C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+Player's hand: 
+6S 6C 6D 10D 10C 10S 12H 12C 
+Player's turn: 
+Ask a number:10
+**********************************BOOOK! #10*****************************
+
+
+
+Player's hand: 
+6S 6C 6D 12H 12C 
+Ask a number:6
+**********************************BOOOK! #6*****************************
+
+
+
+Player's hand: 
+12H 12C 
+Ask a number:12
+**********************************BOOOK! #12*****************************
+
+
+
+Player's hand: 
+11C 
+
+
+Computer's turn: 
+>*Computer: Do you have a #4?
+
+
+***************Go ><(((*)>  *************
+
+
+
+**********************************BOOOK! #5*****************************
+Player's hand: 
+11C 
+Player's turn: 
+Ask a number:11
+**********************************BOOOK! #11*****************************
+
+DECK IS EMPTY
+
+
+Player's hand: 
+
+
+
+
+
+Both players are out of cards!
+It's a tie!!!!! 
+paolo2@quark:~/RANDOM/project1/CS202_HW1$ exit
+
+Script done on Thu 16 Apr 2015 11:43:37 AM PDT
